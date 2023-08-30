@@ -1,0 +1,5 @@
+# ninja log v5
+2	427	7150770342089910	CMakeFiles/code_lee.dir/main.cpp.obj	12a936f356c90208
+2	401	7150770748605281	CMakeFiles/code_lee.dir/Array/erfen.cpp.obj	1eb6ec0f910f76f1
+0	131	7150773276185234	build.ninja	c99654b0f2872383
+401	496	7150770749536485	code_lee.exe	ef04a8a99e287a75
