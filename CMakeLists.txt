@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.26)
+cmake_minimum_required(VERSION 3.25.2)
 project(code_lee)
 
 include_directories(./ ./Array)
-set(ARRAY_SRC Array/erfen.cpp)
+set(ARRAY_SRC Array/erfen.cpp Array/youxushuzupingfang.cpp Array/youxushuzupingfang.h)
 
 set(CMAKE_CXX_STANDARD 17)
 add_executable(code_lee main.cpp ${ARRAY_SRC})

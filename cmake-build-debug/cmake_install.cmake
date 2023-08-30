@@ -1,4 +1,4 @@
-# Install script for directory: D:/study/code/code_lee
+# Install script for directory: E:/study/code/code_leecode
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/Software/clion/CLion 2023.2.1/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/software/Clion/CLion 2023.1/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/study/code/code_lee/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/study/code/code_leecode/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
