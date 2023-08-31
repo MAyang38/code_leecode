@@ -22,4 +22,5 @@ bool isAnagram(std::string s, std::string t)
             return false;
     }
     return true;
+    return true;
 }
