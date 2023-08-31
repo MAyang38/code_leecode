@@ -1,0 +1,3 @@
+"D:\software\Clion\CLion 2023.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\code_lee.dir/objects.a
+D:\software\Clion\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\code_lee.dir/objects.a @CMakeFiles\code_lee.dir\objects1
+D:\software\Clion\CLION2~1.1\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\code_lee.dir/objects.a -Wl,--no-whole-archive -o code_lee.exe -Wl,--out-implib,libcode_lee.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\code_lee.dir\linkLibs.rsp
