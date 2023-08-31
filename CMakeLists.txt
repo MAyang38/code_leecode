@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 3.25.2)
 project(code_lee)
 
-include_directories(./ ./Array)
-set(ARRAY_SRC Array/erfen.cpp Array/youxushuzupingfang.cpp Array/youxushuzupingfang.h)
+include_directories(./ ./Array ./Hash_Table)
+set(ARRAY_SRC Array/erfen.cpp Array/youxushuzupingfang.cpp Array/youxushuzupingfang.h
+        Hash_Table/ah_position.cpp
+        Hash_Table/ah_position.h)
 
 set(CMAKE_CXX_STANDARD 17)
 add_executable(code_lee main.cpp ${ARRAY_SRC})

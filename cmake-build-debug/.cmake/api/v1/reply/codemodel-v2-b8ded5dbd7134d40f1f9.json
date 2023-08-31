@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "code_lee::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-code_lee-Debug-d59d311ceb6d479cd9df.json",
+					"jsonFile" : "target-code_lee-Debug-5607b4bc78e466eede22.json",
 					"name" : "code_lee",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/study/code/code_leecode/cmake-build-debug",
-		"source" : "E:/study/code/code_leecode"
+		"build" : "D:/study/code/code_lee/cmake-build-debug",
+		"source" : "D:/study/code/code_lee"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 5
 	}
 }

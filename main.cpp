@@ -3,6 +3,7 @@
 #include<vector>
 #include "erfen.h"
 #include "youxushuzupingfang.h"
+#include "ah_position.h"
 using namespace std;
 
 
@@ -16,13 +17,18 @@ int main() {
 //    cout<<search(nums,target);
 
 
+//
+//    //有序数组平方
+//    vector<int> nums = {-1, 0, 3, 5, 9, 12};
+//    vector<int> res;
+//    res = sortedSquares(nums);
+//    for(int i  = 0; i < nums.size(); i++)
+//
+//        cout<<res[i]<<endl;
+//    return 0;
 
-    //有序数组平方
-    vector<int> nums = {-1, 0, 3, 5, 9, 12};
-    vector<int> res;
-    res = sortedSquares(nums);
-    for(int i  = 0; i < nums.size(); i++)
-
-        cout<<res[i]<<endl;
-    return 0;
+    //字母异位词
+    string s = "anagram";
+    string t = "nagaram";
+    cout<<isAnagram(s,t) ;
 }
